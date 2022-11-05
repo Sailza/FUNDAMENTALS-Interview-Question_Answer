@@ -1,0 +1,126 @@
+QUESTION 1- Write a method that uses a for loop to display numbers in descending order in the step of 5 starting from 100.
+Call your method from the main method.
+
+SOLUTION 
+public class BackwardCounting {
+		public void backwardCounter() {
+			for (int i = 100; i >= 0; i = i - 5) {
+				System.out.println(i);
+			}
+  }
+		public static void main(String[] args) {
+			new BackwardCounting().backwardCounter();
+		}
+	}
+=================================================================================================================================
+  
+  
+QUESTION-2
+How many times 'Hello' is printed?
+
+public class CppBuzz {
+public static void main(String[] args){
+ for(int i = 0; i<5; i++)
+ {
+ System.out.println("Hello");
+ i++;
+ }
+}
+}
+
+SOLUTION 
+It is printed 3 times becuase i is incremented 2 times for one iteration
+
+================================================================================================================================
+
+
+QUESTION-3
+How many times 'Hello' is printed?
+
+public class CppBuzz {
+public static void main(String[] args){
+ for(int i = 0; i<5; i++)
+ {
+ System.out.println("Hello");
+ i++;
+ i--;
+ }
+}
+}
+
+SOLUTION 
+i++; will increment the value of i by 1 but in next statement i--; will drecrement the value of i by 1.
+Hence these two operations are not making any sense.
+
+=====================================================================================================================================
+
+
+
+QUESTION-4 
+What is the Difference between For and Foreach loop ?
+
+SOLUTION 
+Both for loop and foreach loop are control structures that are used to repeat a block of statements.
+
+FOR LOOP 
+1-A for loop is a control flow structure used for iteration that allows code to be repeatedly executed. 
+2-A for loop can be used to retrieve a particular set of elements.
+3-The for loop is harder to read and write than the foreach loop.
+4-The for loop is used as a general purpose loop.	
+
+FOREACH LOOP
+1-The foreach loop is a control structure for traversing items in an array or a collection
+The foreach loop is improved for a loop. 
+2-The foreach loop cannot be used to retrieve a particular set of elements.
+3-The foreach loop is easier to read and write than the for loop.
+4-The foreach loop is used for arrays and collections.
+
+
+================================================================================================================================================
+
+QUESTION-5
+Which type of loop is best known for using an index or counter ?
+
+SOLUTION 
+For-Loop because,
+for loop is best known for having a loop variable counting up or down as the loop progresses. 
+
+=================================================================================================================================================
+
+
+QUESTION-6
+which can following loop through an arrray without reffering to the element by index ?
+
+SOLUTION 
+For-each loop because,
+The for-each loop goes through each element, storing it in a variable. 
+
+==================================================================================================================================================
+
+QUESTION-7 
+Find the OUTPUT
+
+int i = 0;
+for(i = 0 ; i < 5; i++){			
+}		
+System.out.println(i);
+
+SOLUTION 
+The integer variable i declared before using it in for loop and can be accessible after for loop execution completes. 
+In for loop, the i value will be incremented until the condition fails ( i < 5) so i value is 5.
+
+====================================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
