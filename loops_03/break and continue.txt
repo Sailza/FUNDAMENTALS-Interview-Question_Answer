@@ -1,0 +1,61 @@
+break statement 
+1-The break statement is used to terminate the loop immediately.
+2-break keyword is used to indicate break statements in java programming.
+3-We can use a break with the switch statement
+4-The break statement terminates the whole loop early.
+
+a break statement is majorly used for:
+1-To exit a loop.
+2-Used as a “civilized” form of goto.
+3-Terminate a sequence in a switch statement.
+
+=====================================================================================================================
+
+Continue statement 
+1-The continue statement is used to skip the current iteration of the loop.
+2-continue keyword is used to indicate continue statement in java programming.
+3-We can not use a continue with the switch statement.
+4-The continue statement brings the next iteration early.
+
+======================================================================================================================
+
+QUESTION 1
+Which keyword can be used for coming out of recursion?
+a) break
+b) return
+c) exit
+d) both break and return
+ANSWER b) return
+======================================================================================================================
+
+QUESTION 2 
+The keyword ‘break’ cannot be simply used within _________
+a) do-while
+b) if-else
+c) for
+d) while
+ANSWER b) if-else 
+
+======================================================================================================================
+
+QUESTION-3 
+#include <stdio.h>
+int main ()
+{
+ int a,sum = 0;
+ for (a = 0; a < 10; a++)
+ {
+   
+   if ( a % 2 == 0 )
+      continue;
+  sum = sum + a;
+  }
+ printf("sum = %d",sum);
+ return 0;
+}
+
+SOLUTION 
+Output
+
+sum = 25
+
