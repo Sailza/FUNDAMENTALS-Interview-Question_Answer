@@ -1,0 +1,69 @@
+Method overloading 
+====================================================================================================
+If two or more methods have same name, but different argument then it is called method overloading
+
+Rules of Method overloading:
+
+Number of Arguments - 	Overloaded method can have different number of arguments
+Date type	          - Overload method can have different data type for argument
+Return type         - 	Return type can be changed but either number of argument or data type of argument should also be changed.
+Order of arguments  - If you change sequence of arguments then it is also valid method overloading provided you have different data types arguments.
+Constructor         -Can be overloaded
+
+QUESTION 1 - Can we overload static methods in java?
+Answer:
+Yes, we can overload static methods in java but we can not override them.
+
+QUESTION 2- Can you overload main method?
+Answer:
+Yes, you can overload main method in java but only method with signature public static void main(String[] args) will be used when your class is invoked by JVM.
+
+QUESTION 3- Can we change only return type while method overloading?
+Answer:
+You can not.If we change only return type, it will become ambiguous for compiler to figure out which method to call.That is why you can not change only return type.
+
+
+Method Overriding
+==================================================================================================================================================================
+If subclass is having same method as base class then it is known as method overriding Or in another words,
+If subclass provides specific implementation to any method which is present in its one of parents classes then it is known as method overriding.
+
+Rules for method overriding:
+
+Arguments       - 	Must not change
+Return type     -	Can’t change except for covariant (subtype) returns
+Access Modifier	-Must not be more restrictive. Can be less restrictive.
+Exceptions      - 	Can reduce or eliminate but must not throw new/broader checked exceptions
+Contructor      - 	Can not be overridden
+Static method   -	Can not be overridden
+final method	  -Can not be overridden
+
+QUESTION - Can you override static methods in java?
+ANSWER - No, you can not override static methods in java. 
+Static methods belongs to class level not at object level.
+You can create static method with same name in child class and it won’t give you compilation error but it is called method hiding.
+You won’t get overriding behaviour with it.
+
+QUESTION- Can you override private methods in java?
+Answer:
+No, you can not override private methods in java.
+Private methods are not visible to child class, hence you can not override it , you can only hide it.
+
+QUESTION- Can you override final methods?
+Answer:
+Because final methods are meant to be not overridden.You declare a method final because you don’t want it to be overridden in subclass.
+
+QUESTION - What is static binding?
+Answer:
+When you compile Java program. 
+During compilation process, compiler bind method call to actual method. 
+This is called static binding and method overloading binding happens at compile time.
+
+QUESTION -What is dynamic binding?
+Binding of overridden methods happen at runtime is known as dynamic binding.
+
+
+
+
+
+
