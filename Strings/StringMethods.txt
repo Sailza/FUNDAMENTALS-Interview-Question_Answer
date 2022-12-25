@@ -1,0 +1,120 @@
+QUESTION 1 
+String in Java is a?
+a) class
+b) object
+c) variable
+d) character array
+
+SOLUTION - a) class
+
+QUESTION 2
+Which of these method of String class is used to obtain character at specified index?
+a) char()
+b) Charat()
+c) charat()
+d) charAt()
+
+SOLUTION - d)charAt()
+
+QUESTION 3 
+Which of these keywords is used to refer to member of base class from a subclass?
+a) upper
+b) super
+c) this
+d) none of the mentioned
+
+SOLUTION 
+b)super 
+Explanation: Whenever a subclass needs to refer to its immediate superclass, it can do so by use of the keyword super.
+
+QUESTION 4 
+Which of these method of String class can be used to test to strings for equality?
+a) isequal()
+b) isequals()
+c) equal()
+d) equals()
+
+SOLUTION 
+d) equals 
+
+QUESTION 5 
+Which of the following statements are incorrect?
+a) String is a class
+b) Strings in java are mutable
+c) Every string is an object of class String
+d) Java defines a peer class of String, called StringBuffer, which allows string to be altered
+
+SOLUTION 
+ b)  Strings in java are mutable
+Explanation: Strings in Java are immutable that is they can not be modified.
+
+QUESTION 6 
+ What will be the output of the following Java program?
+
+    class string_demo 
+    {
+        public static void main(String args[])
+        {
+            String obj = "I" + "like" + "Java";   
+            System.out.println(obj);     
+        }
+   }
+a) I
+b) like
+c) Java
+d) IlikeJava
+
+SOLUTION 
+ d) IlikeJava 
+Explanation: Java defines an operator +, it is used to concatenate strings.
+output:
+$ javac string_demo.java
+$ java string_demo
+IlikeJava
+
+
+QUESTION 7 
+What will be the output of the following Java program?
+
+    class string_class 
+    {
+        public static void main(String args[])
+        {
+            String obj = "I LIKE JAVA";   
+            System.out.println(obj.charAt(3));
+        } 
+    }
+a) I
+b) L
+c) K
+d) E
+SOLUTION 
+ a)  I
+Explanation: charAt() is a method of class String which gives the character specified by the index. obj.charAt(3) gives 4th character i:e I.
+output:
+$ javac string_class.java
+$ java string_class
+I
+
+QUESTION 8 
+What will be the output of the following Java program?
+
+    class string_class 
+    {
+        public static void main(String args[])
+        {
+            String obj = "I LIKE JAVA";   
+            System.out.println(obj.length());
+        }
+    }
+a) 9
+b) 10
+c) 11
+d) 12
+SOLUTION 
+c
+Explanation: None.
+output:
+$ javac string_class.java
+$ java string_class 
+11
